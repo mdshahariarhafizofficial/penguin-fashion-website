@@ -17,21 +17,34 @@
 </head>
 <body class="roboto-font">
     <!-- Header Section Start -->
-     <header class="bg-[#FFFBF0]">
-        <div class="container ">
+     <header class="bg-[#FFFBF0] pb-10 sm:pb-35 px-6 lg:px-0">
+        <div class="container mx-auto">
             <!-- Nav Section -->
-            <nav>
-                
+            <nav class="py-10">
+                <div class="nav-menu flex items-center justify-between">
+                    <img class="w-[295px]" src="assets/icons/logo.png" alt="">
+                    <div class="menu-list">
+                        <div class="hidden md:block">
+                            <ul class="flex gap-12">
+                                <li><a href="" class="text-base font-medium text-[#3E3E3E]">Home</a></li>
+                                <li><a href="" class="text-base font-medium text-[#3E3E3E]">Product</a></li>
+                                <li><a href="" class="text-base font-medium text-[#3E3E3E]">About us</a></li>
+                                <li><a href="" class="text-base font-medium text-[#3E3E3E]">Contact us</a></li>
+                            </ul>
+                        </div>
+                        <a href="" class="md:hidden text-2xl font-medium text-[#3E3E3E]"><i class="fa-solid fa-bars"></i></a>
+                    </div>
+                </div>
             </nav>
             <!-- Hero Section -->
-            <section class="hero-section flex items-center justify-between">
+            <section class="hero-section flex flex-col gap-6 sm:flex-row items-center justify-between">
                 <div class="hero-left">
-                    <h1 class="text-7xl font-medium"><span class="text-[#FABE4C]">Be the Penguins</span><br><span class="text-[#363958]">of Winter</span></h1>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    <button><i class="fa-solid fa-cart-shopping"></i> BUY NOW</button>
+                    <h1 class="leading-snug text-7xl font-medium uppercase"><span class="text-[#FABE4C]">Be the Penguins</span><br><span class="text-[#363958]">of Winter</span></h1>
+                    <p class="max-w-[357px] text-base leading-8 text-[#3E3E3E] my-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <button class="px-9 py-5 bg-[#A4BC46] text-white rounded-xl cursor-pointer hover:bg-black"><i class="fa-solid fa-cart-shopping"></i> BUY NOW</button>
                 </div>
                 <div class="hero-right">
-                    <img src="assets/images/model.png" alt="">
+                    <img class="w-full" src="assets/images/model.png" alt="">
                 </div>
             </section>
 
